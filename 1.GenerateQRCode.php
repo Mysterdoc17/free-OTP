@@ -13,7 +13,7 @@ $otp = TOTP::create();
 $secret = $otp->getSecret();
 
 // ou utilisation d'un secret déjà généré par nos soins (pour les tests)
-$secret = "XVEZ4O2QCL2FYNIAJCIUNDJAKTAWL45S6SCXKJJEBGZNFN7BB4XFOKA3LNX4U3ERMSLSK4AUMKRVWU3YTYXMBK3WFDQQHPVT745CGMA";
+$secret = "MNWGKZTSMVSW65DQFV2GK43U";
 
 echo "The OTP secret is: {$secret}\n";
 

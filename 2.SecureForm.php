@@ -60,7 +60,7 @@ $qrCodeOutput = "<img src='{$grCodeUri}'>";
 // Fonction qui renvoie true si login et mot de passe sont corrects
 function checkLoginPassword($login, $password)
 {
-    if ($login=='toto' && $password=='titi') return true;
+    if ($login=='toto' && $password=='lpnght12*49') return true;
     return false;
 }
 
